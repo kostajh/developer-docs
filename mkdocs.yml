@@ -1,0 +1,13 @@
+site_name: Savas Labs Developer Guide
+docs_dir: "."
+site_url: http://developers.savaslabs.com
+repo_url: https://github.com/savaslabs/developer-guide
+site_description: This collection of documents contains a set of best practices and style guides for Savas Labs developers.
+site_author: Kosta Harlan, Dan Murphy, Lisa Ridley, Chris Russo, Tim Stallmann, Anne Tomasevich
+copyright: "&copy; 2016, Kosta Harlan, Dan Murphy, Lisa Ridley, Chris Russo, Tim Stallmann, Anne Tomasevich"
+# google_analytics: "TODO"
+pages:
+    - 'Introduction': 'index.md'
+theme: readthedocs
+site_dir: _site
+
