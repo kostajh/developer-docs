@@ -9,5 +9,4 @@ copyright: "&copy; 2016, Kosta Harlan, Dan Murphy, Lisa Ridley, Chris Russo, Tim
 pages:
     - 'Introduction': 'index.md'
 theme: readthedocs
-site_dir: _site
 
