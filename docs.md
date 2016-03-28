@@ -5,8 +5,15 @@
 Install the `sphinx` and `sphinx-autobuild` python utilities:
 
 ``` sh
-$ pip install sphinx sphinx-autobuild --user
+$ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 ```
+
+Ensure that your the `sphinx` commands are accessible to your terminal
+On Mac OSX, I added the following entry to my `~/.bashrc`
+
+`export PATH=$HOME/Library/Python/2.7/bin:$PATH`
+
+You may need to run `source ~/.bashrc` to ensure the access to the commands
 
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
