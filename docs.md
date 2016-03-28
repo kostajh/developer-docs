@@ -5,16 +5,17 @@
 Install the `sphinx` and `sphinx-autobuild` python utilities:
 
 ``` sh
-# The --user flag is to install these libraries into your user directory to
-# avoid problems with your system install.
-# You can also use virtualenv to create a per-directory python virtual
-# environment.
 $ pip install sphinx sphinx-autobuild --user
 ```
 
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The <code>--user</code> flag is to install these libraries into your user directory to avoid problems with your system install. You can also use <code>virtualenv</code> to create a per-directory python virtual environment.</p>
+</div>
+
 You have two options for viewing the docs locally. You can build the docs using `make html` and then open the `_build/html/index.html` file in your browser.
 
-Alternatively, run `make livehtml` and navigate to `http://localhost:8000` to view the docs. The HTML is updated as you edit the Markdown source files.
+Alternatively, run `make livehtml` and navigate to `http://localhost:8000` to view the docs. The HTML is updated as you edit the Markdown source files — no browser reload required!
 
 ## Submitting your changes
 
