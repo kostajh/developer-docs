@@ -2,23 +2,36 @@
 
 ## Building the project locally
 
+### Installing the requirements
+
 Install the `sphinx` and `sphinx-autobuild` python utilities:
 
 ``` sh
 $ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 ```
 
-Ensure that your the `sphinx` commands are accessible to your terminal
-On Mac OSX, I added the following entry to my `~/.bashrc`
-
-`export PATH=$HOME/Library/Python/2.7/bin:$PATH`
-
-You may need to run `source ~/.bashrc` to ensure the access to the commands
-
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">The <code>--user</code> flag is to install these libraries into your user directory to avoid problems with your system install. You can also use <code>virtualenv</code> to create a per-directory python virtual environment.</p>
 </div>
+
+Ensure that your the `sphinx` and `sphinx-autobuild` commands are accessible to your terminal.
+
+On Mac OS X, add the following entry to my `~/.bashrc`:
+
+``` sh
+export PATH=$HOME/Library/Python/2.7/bin:$PATH`
+```
+
+On Linux, this would probably be:
+
+``` sh
+export PATH=$HOME/.local/bin:$PATH
+```
+
+You may need to run `source ~/.bashrc` to ensure the access to the commands.
+
+### Building the docs
 
 You have two options for viewing the docs locally. You can build the docs using `make html` and then open the `_build/html/index.html` file in your browser.
 
