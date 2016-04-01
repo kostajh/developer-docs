@@ -12,7 +12,12 @@ Good git commit messages are helpful for consistency with your collaborators. Th
 > 1. Wrap the body at 72 characters
 > 1. Use the body to explain what and why vs. how
 
-Please read through the post for more detail on each of the items above.
+Please read through and reference the post for more detail on each of the items above.
+
+We also have a few in-house additions to this:
+
+> 1. Reference the relevant Redmine/GitHub issue at the beginning of each commit, e.g. "Issue #123: Fix git commit message docs"
+> 1. If you find yourself leaving important/lengthy notes in the commit body, consider whether that message should also be present as code comments for improved discoverability
 
 ## Creating a good pull request
 
