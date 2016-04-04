@@ -3,8 +3,8 @@ Welcome to Savas Labs Developer Docs!
 
 .. toctree::
    :maxdepth: 2
-              
-   docs
+
+   README
    drupal
    git
    code-standards
