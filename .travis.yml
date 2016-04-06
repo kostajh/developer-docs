@@ -6,3 +6,5 @@ rvm:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_install:
+  - pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark
