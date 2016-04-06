@@ -9,7 +9,7 @@
 Install the `sphinx` and `sphinx-autobuild` python utilities:
 
 ``` sh
-$ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
+pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 ```
 
 <div class="admonition note">
@@ -17,12 +17,12 @@ $ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 <p class="last">The <code>--user</code> flag is to install these libraries into your user directory to avoid problems with your system install. You can also use <code>virtualenv</code> to create a per-directory python virtual environment.</p>
 </div>
 
-Ensure that your the `sphinx` and `sphinx-autobuild` commands are accessible to your terminal.
+Ensure that the `sphinx-build` and `sphinx-autobuild` commands are accessible to your terminal.
 
-On Mac OS X, add the following entry to my `~/.bashrc`:
+On Mac OS X, add the following entry to your `~/.bashrc`. Be sure to use the `$HOME` variable and not `~` as this may cause issues running `sphinx-build`:
 
 ``` sh
-export PATH=$HOME/Library/Python/2.7/bin:$PATH`
+export PATH=$HOME/Library/Python/2.7/bin:$PATH
 ```
 
 On Linux, this would probably be:
