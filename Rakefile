@@ -4,7 +4,7 @@ task :test do
   HTMLProofer.check_directories(
     ["./_build/html"], {
       :allow_hash_href => true,
-      :file_ignore => [/search.html/],
+      :file_ignore => [/search.html/, /vendor/],
       :parallel => {:in_processes => 4},
       :only_4xx => true,
       :url_ignore => ["/^(?:http(?:s)?:\/\/)?(?:[^\.]+\.)?drupal\.org(?:/.*)?$/",
