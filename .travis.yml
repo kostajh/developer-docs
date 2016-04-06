@@ -1,0 +1,8 @@
+language: ruby
+script: "./run-tests.sh"
+cache: bundler
+rvm:
+- 2.1
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

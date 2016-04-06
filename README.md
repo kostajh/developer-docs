@@ -45,4 +45,5 @@ To contribute to the docs at `developers.savaslabs.com`:
 2. Make your changes
    a. Edit an existing file
    b. If creating a new file, add a line entry to `index.rst` that corresponds to the new filename that you added
-3. Submit a pull request for the team to review
+3. Run the tests with `./run-tests.sh`
+4. Submit a pull request for the team to review
