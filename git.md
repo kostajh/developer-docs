@@ -8,12 +8,12 @@ We use git to manage our work, and generally use the git-flow workflow. Read thr
  
 The essentials are:
 
-* Each project has a base repository, either under the `savaslabs` GitHub account or under a client account.
-* This repository generally has `master` and `develop` branches, although this can vary on a project-by-project basis.
+- Each project has a base repository, either under the `savaslabs` GitHub account or under a client account.
+- This repository generally has `master` and `develop` branches, although this can vary on a project-by-project basis.
 For chunks of work which involve a longer development time before being merged into master, we sometimes open a feature branch on the base repository.
-* Individual developers fork the base repository to their own GitHub account, and add both the base repository (as `upstream`) and their fork (as `origin`) to their local git instance.
-* Never push new code from your desktop to the base repository; instead push branches to your fork.
-* Code changes on the base repository should always happen via pull requests that involves a peer review process.
+- Individual developers fork the base repository to their own GitHub account, and add both the base repository (as `upstream`) and their fork (as `origin`) to their local git instance.
+- Never push new code from your desktop to the base repository; instead push branches to your fork.
+- Code changes on the base repository should always happen via pull requests that involves a peer review process.
 
 General workflow:
 
