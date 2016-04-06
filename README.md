@@ -17,7 +17,7 @@ $ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 <p class="last">The <code>--user</code> flag is to install these libraries into your user directory to avoid problems with your system install. You can also use <code>virtualenv</code> to create a per-directory python virtual environment.</p>
 </div>
 
-Ensure that your the `sphinx` and `sphinx-autobuild` commands are accessible to your terminal.
+Ensure that the `sphinx-build` and `sphinx-autobuild` commands are accessible to your terminal.
 
 On Mac OS X, add the following entry to my `~/.bashrc`:
 
