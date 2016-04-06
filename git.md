@@ -52,6 +52,9 @@ We also have a few in-house additions to this:
 ## Creating a good pull request
 
 A pull request is an important piece of communication, both to other developers reviewing your code and to future developers who need to understand the history of the project.
+Like commit messages, pull request titles should start with `Issue #___: ` and be a one-line summary of what the PR does. **If your pull request is not ready for review**, mark it
+as a work-in-progress by putting `[WIP]` in front of the title.
+
  A good pull request description should:
  
 * Give a concise summary of what changes are introduced to the codebase and/or functionality in the pull request. Often we do this using a bullet list.
