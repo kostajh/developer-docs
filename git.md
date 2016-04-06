@@ -51,4 +51,19 @@ We also have a few in-house additions to this:
 
 ## Creating a good pull request
 
+A pull request is an important piece of communication, both to other developers reviewing your code and to future developers who need to understand the history of the project.
+ A good pull request description should:
+ 
+* Give a concise summary of what changes are introduced to the codebase and/or functionality in the pull request. Often we do this using a bullet list.
+* List any steps which will necessary to deploy the pull request, both locally and in production -- this should have all the information necessary to deploy.
+* Give any specific instructions that are necessary for testing. Include links to URLs for testing whenever you can!
+* Specify any specific issues that you want developers doing peer review to be sure to investigate thoroughly.
+* Give a timeframe for review.
+
+## Git workflows
+
+### Git flow
+
+### GitHub flow
+
 ## Code review
