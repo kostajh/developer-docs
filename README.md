@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/savaslabs/developer-docs.svg?branch=master)](https://travis-ci.org/savaslabs/developer-docs)
+
 # Write the docs
 
 ## Building the project locally
