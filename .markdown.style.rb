@@ -1,5 +1,4 @@
 # Select and configure Markdown Lint rules.
-#rule 'MD003', :style => :setext_with_atx
 rule "MD001" # Header levels should only increment by one level at a time
 rule "MD002" # First header should be a h1 header
 rule "MD003", :style => :atx # Header style
