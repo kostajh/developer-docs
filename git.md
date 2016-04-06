@@ -56,12 +56,12 @@ Like commit messages, pull request titles should start with `Issue #___: ` and b
 as a work-in-progress by putting `[WIP]` in front of the title.
 
  A good pull request description should:
- 
-* Give a concise summary of what changes are introduced to the codebase and/or functionality in the pull request. Often we do this using a bullet list.
-* List any steps which will necessary to deploy the pull request, both locally and in production -- this should have all the information necessary to deploy.
-* Give any specific instructions that are necessary for testing. Include links to URLs for testing whenever you can!
-* Specify any specific issues that you want developers doing peer review to be sure to investigate thoroughly.
-* Give a timeframe for review.
+
+- Give a concise summary of what changes are introduced to the codebase and/or functionality in the pull request. Often we do this using a bullet list.
+- List any steps which will necessary to deploy the pull request, both locally and in production -- this should have all the information necessary to deploy.
+- Give any specific instructions that are necessary for testing. Include links to URLs for testing whenever you can!
+- Specify any specific issues that you want developers doing peer review to be sure to investigate thoroughly.
+- Give a timeframe for review.
 
 Once the pull request is open, you should also assign a specific reviewer in GitHub, set the applicable Redmine task(s) status to `Developer Review`, assign those
  tasks to the reviewer, and paste a link to the pull request in the `GitHub PR` field. If the request is urgent, you should also communicate with the reviewing developer
