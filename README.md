@@ -9,7 +9,7 @@
 Install the `sphinx` and `sphinx-autobuild` python utilities:
 
 ``` sh
-$ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
+pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 ```
 
 <div class="admonition note">
