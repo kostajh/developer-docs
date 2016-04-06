@@ -19,7 +19,9 @@ General workflow:
 
 1. Pull the most recent version of the `develop` (or other relevant base branch, depending on the project) branch from the base repo to your local environment.
 2. Open a new branch for the new feature you're working on. Usually this corresponds to an issue number on redmine. 
-Branches should be named `feature/issue#-description`, like `feature/824-refactor-module-code`.
+Branches should be named `feature/issue#-description`, like `feature/824-refactor-module-code`. Following the git-flow model, this holds for all new work, even if
+the "feature" is actually a bugfix. The only exception is `hotfix` branches, which are not discussed here. We do this because it makes it easy at a glance to differentiate
+between feature branches in the list of branches on the repository.
 3. Working locally, make commits for your work (see below).
 4. When the feature branch is ready for review, rebase the feature branch on the most recent `develop` branch (if there have been changes).
 5. If necessary, do an interactive rebase to cleanup redundant multiple commit messages.
