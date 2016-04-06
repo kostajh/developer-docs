@@ -1,7 +1,172 @@
 body {
-  color: blue;
+  color: #14133b;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 5em;
+/* Typography ----------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #9e023b;
+  font-family: 'PT Serif', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #0a5365;
+}
+
+a:hover,
+a:focus {
+  color: #0f7993;
+}
+
+a:visited {
+  color: #501888;
+}
+
+/* Add underline to inline links. */
+p a {
+  border-bottom: .1em solid rgba(10, 83, 101, .1);
+}
+p a:hover,
+p a:focus {
+  border-bottom: .1em solid rgba(10, 83, 101, 1);
+
+}
+
+/* Code. */
+.rst-content tt.literal,
+.rst-content tt.literal,
+.rst-content code.literal {
+  color: #f6433e;
+}
+
+/* Overrides. ----------------------------------------------------------------*/
+
+/* Sidebar colors and text styles. */
+.wy-nav-side {
+  background: #14133b;
+}
+
+.wy-side-nav-search {
+  background-color: #9e023b;
+}
+
+.wy-menu-vertical a:hover {
+  background-color: #0f7993;
+  color: #fff;
+}
+
+.wy-menu-vertical a:visited {
+  color: #b3b3b3;
+}
+
+.wy-menu-vertical li.current a,
+.wy-menu-vertical li.current a:visited {
+  color: #0a5365;
+}
+
+.wy-menu-vertical li.current a:hover,
+.wy-menu-vertical li.current a:focus {
+  color: #0f7993;
+}
+
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
+  border-right: solid 1px #c9c9c9 !important;
+}
+
+.wy-side-nav-search input[type=text] {
+  border-color: rgba(255,255,255,0.3);
+}
+
+.wy-side-nav-search a.icon-home:hover,
+.wy-side-nav-search a.icon-home:visited {
+  color: #fff;
+}
+
+/* Buttons. */
+a.btn-neutral {
+  background-color: #0a5365 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+a.btn-neutral:hover,
+a.btn-neutral:focus {
+  background-color: #0f7993 !important;
+  color: #fff !important;
+}
+
+a.btn-neutral:visited {
+  color: #fff !important;
+}
+
+.btn-neutral .fa {
+  margin: 0 .25em;
+}
+
+/* Home page. */
+#welcome-to-savas-labs-developer-docs .toctree-l1 {
+  font-family: 'PT Serif', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 1em;
+}
+
+#welcome-to-savas-labs-developer-docs .toctree-l1:first-child {
+  margin-top: 0;
+}
+
+#welcome-to-savas-labs-developer-docs .toctree-l2 {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin-left: 2em;
+}
+
+/* Notes, alerts, etc. */
+.wy-alert.wy-alert-info .wy-alert-title,
+.rst-content .note .wy-alert-title,
+.rst-content .wy-alert-info.attention .wy-alert-title,
+.rst-content .wy-alert-info.caution .wy-alert-title,
+.rst-content .wy-alert-info.danger .wy-alert-title,
+.rst-content .wy-alert-info.error .wy-alert-title,
+.rst-content .wy-alert-info.hint .wy-alert-title,
+.rst-content .wy-alert-info.important .wy-alert-title,
+.rst-content .wy-alert-info.tip .wy-alert-title,
+.rst-content .wy-alert-info.warning .wy-alert-title,
+.rst-content .seealso .wy-alert-title,
+.rst-content .wy-alert-info.admonition-todo .wy-alert-title,
+.wy-alert.wy-alert-info .rst-content .admonition-title,
+.rst-content .wy-alert.wy-alert-info .admonition-title,
+.rst-content .note .admonition-title,
+.rst-content .wy-alert-info.attention .admonition-title,
+.rst-content .wy-alert-info.caution .admonition-title,
+.rst-content .wy-alert-info.danger .admonition-title,
+.rst-content .wy-alert-info.error .admonition-title,
+.rst-content .wy-alert-info.hint .admonition-title,
+.rst-content .wy-alert-info.important .admonition-title,
+.rst-content .wy-alert-info.tip .admonition-title,
+.rst-content .wy-alert-info.warning .admonition-title,
+.rst-content .seealso .admonition-title,
+.rst-content .wy-alert-info.admonition-todo .admonition-title {
+  background: #14133b;
+}
+.wy-alert.wy-alert-info,
+.rst-content .note,
+.rst-content .wy-alert-info.attention,
+.rst-content .wy-alert-info.caution,
+.rst-content .wy-alert-info.danger,
+.rst-content .wy-alert-info.error,
+.rst-content .wy-alert-info.hint,
+.rst-content .wy-alert-info.important,
+.rst-content .wy-alert-info.tip,
+.rst-content .wy-alert-info.warning,
+.rst-content .seealso,
+.rst-content .wy-alert-info.admonition-todo {
+  background: #e3e3e3;
 }

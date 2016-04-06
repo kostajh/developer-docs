@@ -122,6 +122,7 @@ else:
         'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
         'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
         '_static/css/custom.css',
+        'https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|PT+Serif:700,700italic'
     ],
   }
 
