@@ -32,6 +32,8 @@ export PATH=$HOME/.local/bin:$PATH
 ```
 
 You may need to run `source ~/.bashrc` to ensure the access to the commands.
+You can add `source ~/.bashrc` to your `~/.bash_profile` (or possibly `~/.profile`)
+to automate this step.
 
 ### Building the docs
 
