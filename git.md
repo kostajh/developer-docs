@@ -30,7 +30,7 @@ the new changes into the feature branch instead.
 7. Open a pull request (see below) to merge the feature branch **from** your fork of the repo
 **to** the base repository.
 
-### Github flow
+### GitHub flow
 
 On simpler projects, rather than using the full git flow process (where features are merged into `develop` and then tagged releases are created separately on `master`), we
  use a streamlined workflow where feature branches are merged directly into the `master` branch. This workflow [is described here](http://scottchacon.com/2011/08/31/github-flow.html).
