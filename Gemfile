@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'html-proofer', '~> 3.0.0'
+gem 'travis'
+gem 'mdl'
+gem 'rake'
