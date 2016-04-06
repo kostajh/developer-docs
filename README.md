@@ -19,10 +19,10 @@ $ pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark --user
 
 Ensure that the `sphinx-build` and `sphinx-autobuild` commands are accessible to your terminal.
 
-On Mac OS X, add the following entry to my `~/.bashrc`:
+On Mac OS X, add the following entry to your `~/.bashrc`:
 
 ``` sh
-export PATH=$HOME/Library/Python/2.7/bin:$PATH`
+export PATH=$HOME/Library/Python/2.7/bin:$PATH
 ```
 
 On Linux, this would probably be:
