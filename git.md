@@ -63,6 +63,10 @@ as a work-in-progress by putting `[WIP]` in front of the title.
 * Specify any specific issues that you want developers doing peer review to be sure to investigate thoroughly.
 * Give a timeframe for review.
 
+Once the pull request is open, you should also assign a specific reviewer in GitHub, set the applicable Redmine task(s) status to `Developer Review`, assign those
+ tasks to the reviewer, and paste a link to the pull request in the `GitHub PR` field. If the request is urgent, you should also communicate with the reviewing developer
+ via some other channel rather than relying on them to get GitHub or Redmine notifications.
+
 ## Git workflows
 
 ### Git flow
