@@ -13,4 +13,6 @@ Topics
    drupal-vm
    projectmanagement
    redmine
+   time-entry
    CONTRIBUTING
+
