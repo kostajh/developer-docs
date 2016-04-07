@@ -2,15 +2,12 @@
 
 ## Basic git workflow (git flow)
 
-We use git to manage our work, and generally use the git-flow workflow. Read through the descriptions of
- [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
- and [git flow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for more background.
- 
+We use git to manage our work, and generally use the git-flow workflow. Read through the descriptions of [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) and [git flow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for more background.
+
 The essentials are:
 
 - Each project has a base repository, either under the `savaslabs` GitHub account or under a client account.
-- This repository generally has `master` and `develop` branches, although this can vary on a project-by-project basis.
-For chunks of work which involve a longer development time before being merged into master, we sometimes open a feature branch on the base repository.
+- This repository generally has `master` and `develop` branches, although this can vary on a project-by-project basis. For chunks of work which involve a longer development time before being merged into master, we sometimes open a feature branch on the base repository.
 - Individual developers fork the base repository to their own GitHub account, and add both the base repository (as `upstream`) and their fork (as `origin`) to their local git instance.
 - Never push new code from your desktop to the base repository; instead push branches to your fork.
 - Code changes on the base repository should always happen via pull requests that involves a peer review process.
@@ -18,27 +15,20 @@ For chunks of work which involve a longer development time before being merged i
 General workflow:
 
 1. Pull the most recent version of the `develop` (or other relevant base branch, depending on the project) branch from the base repo to your local environment.
-2. Open a new branch for the new feature you're working on. Usually this corresponds to an issue number on redmine. 
-Branches should be named `feature/issue#-description`, like `feature/824-refactor-module-code`. Following the git-flow model, this holds for all new work, even if
-the "feature" is actually a bugfix. The only exception is `hotfix` branches, which are not discussed here. We do this because it makes it easy at a glance to differentiate
-between feature branches in the list of branches on the repository.
+2. Open a new branch for the new feature you're working on. Usually this corresponds to an issue number on redmine. Branches should be named `feature/issue#-description`, like `feature/824-refactor-module-code`. Following the git-flow model, this holds for all new work, even if the "feature" is actually a bugfix. The only exception is `hotfix` branches, which are not discussed here. We do this because it makes it easy at a glance to differentiate between feature branches in the list of branches on the repository.
 3. Working locally, make commits for your work (see below).
-4. When the feature branch is ready for review, rebase the feature branch on the most recent `develop` branch (if there have been changes). Developers may choose to merge
-the new changes into the feature branch instead.
+4. When the feature branch is ready for review, rebase the feature branch on the most recent `develop` branch (if there have been changes). Developers may choose to merge the new changes into the feature branch instead.
 5. If necessary, do an interactive rebase to cleanup redundant multiple commit messages.
 6. Push the feature branch to your fork (the `origin` remote).
-7. Open a pull request (see below) to merge the feature branch **from** your fork of the repo
-**to** the base repository.
+7. Open a pull request (see below) to merge the feature branch **from** your fork of the repo **to** the base repository.
 
 ### GitHub flow
 
-On simpler projects, rather than using the full git flow process (where features are merged into `develop` and then tagged releases are created separately on `master`), we
- use a streamlined workflow where feature branches are merged directly into the `master` branch. This workflow [is described here](http://scottchacon.com/2011/08/31/github-flow.html).
+On simpler projects, rather than using the full git flow process (where features are merged into `develop` and then tagged releases are created separately on `master`), we use a streamlined workflow where feature branches are merged directly into the `master` branch. This workflow [is described here](http://scottchacon.com/2011/08/31/github-flow.html).
 
 ### Git flow extension
 
-It is also possible to automate parts of the above workflow using the [gitflow extension](https://github.com/nvie/gitflow), which some developers at Savas Labs use.
- Project managers may use git-flow as well to create tagged releases.
+It is also possible to automate parts of the above workflow using the [gitflow extension](https://github.com/nvie/gitflow), which some developers at Savas Labs use. Project managers may use git-flow as well to create tagged releases.
 
 ## Git commit messages
 
