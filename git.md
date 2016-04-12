@@ -53,7 +53,7 @@ We also have a few in-house additions to this:
 
 A pull request is an important piece of communication, both to other developers reviewing your code and to future developers who need to understand the history of the project.
 
-Like commit messages, pull request titles should start with `Issue #___: ` and be a one-line summary of what the PR does. Ideally, the branch used for the pull request also contains the issue number, e.g. `933-good-pr-docs`.
+Like commit messages, pull request titles should start with `Issue #___:` and be a one-line summary of what the PR does. Ideally, the branch used for the pull request also contains the issue number, e.g. `933-good-pr-docs`.
 
 **If your pull request is not ready for review**, mark it as a work-in-progress by putting `[WIP]` in front of the title. Once your PR is ready for review, be sure to remove the `[WIP]` tag from the title and notify the developer responsible for reviewing it.
 
@@ -69,10 +69,4 @@ Once the pull request is open, you should also assign a specific reviewer in Git
  tasks to the reviewer, and paste a link to the pull request in the `GitHub PR` field. If the request is urgent, you should also communicate with the reviewing developer
  via some other channel (Slack, in person, etc) rather than relying on them to get GitHub or Redmine notifications.
 
-## Git workflows
 
-### Git flow
-
-### GitHub flow
-
-## Code review
