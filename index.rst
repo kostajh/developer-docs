@@ -1,17 +1,19 @@
 Welcome to Savas Labs Developer Docs!
-=====================================
-
-Topics
-~~~~~~
+=============================================
 
 .. toctree::
    :maxdepth: 1
+   :caption: Topics
+   :numbered:
 
-   drupal
+   ..
+      drupal
    git
    code-standards
-   drupal-vm
-   projectmanagement
+   ..
+      drupal-vm
+   ..
+      projectmanagement
    redmine
    time-entry
    CONTRIBUTING
